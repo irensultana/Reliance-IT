@@ -1,0 +1,53 @@
+/* for mobile  */
+@media screen and (max-width: 576px) {
+    .banner {
+        width: 100%;
+        padding: 10%;
+        margin: 0;
+    }
+
+    .bannet-txt h1 {
+        font-size: 2rem;
+        line-height: 1;
+    }
+
+    .bannet-txt p {
+        font-size: 12px;
+        margin: 6% 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .courses {
+        background-color: var(--secondery-color);
+        padding: 15px 30px;
+        color: #fff;
+        border-radius: 5px;
+        display: inline-block;
+    }
+
+    .courses c1{
+        font-size: 12px;
+        margin: 6% 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+    }
+    i.fa-solid.fa-arrow-right {
+        margin-left: 8px;
+        animation-name: arrowslide;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes arrowslide {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(20px);
+        }
+    }
